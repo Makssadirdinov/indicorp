@@ -346,15 +346,15 @@ a {
 
 /*clients section*/
 .clients {
-    height: 339px;
+    height: 259px;
     position: relative;
-    padding: 70px 0 157px;
+    padding: 70px 0 77px;
 }
 .clients_card {
     position: absolute;
     left: 0;
     right: 0;
-    top: 195px;
+    top: 115px;
     padding: 30px 50px;
     max-width: 986px;
     margin: 80px auto 0;
@@ -416,26 +416,36 @@ a {
 
 /* section get_in_touch*/
 .gtn_touch {
-    background: #F3F3F3;
     padding: 80px 0 148px;
+    background: #F3F3F3;
 }
 .gtn_grid {
+    width: 985px;
+    margin: 0 auto;
+    height: 393px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+}
+.gtn_col {
+    height: 393px;
+    display: flex;
+    align-items: center;
 }
 .gtn_cards {
     text-align: center;
     padding: 50px 53px 60px;
-    width: 328px;
     height: 333px;
     margin-top: 110px;
     background: white;
+    transition: .6s;
 }
 .gtn_cards:hover {
+    height: 100%;
     background: #252B42;
 }
 .gtn_img {
     margin-bottom: 15px;
+    transition: .3s;
 }
 .gtn_img svg {
     fill: #00A0C1;
@@ -450,6 +460,7 @@ a {
     text-align: center;
     letter-spacing: 0.2px;
     color: #252B42;
+    transition: .3s;
 }
 .gtn_cards:hover .gtn_add {
     color: #ffffff;
@@ -462,6 +473,7 @@ a {
     text-align: center;
     letter-spacing: 0.1px;
     color: #252B42;
+    transition: .3s;
 }
 .gtn_cards:hover .gtn_title {
     color: #ffffff;
@@ -476,9 +488,11 @@ a {
     height: 44px;
     border: 1px solid #FFA62B;
     border-radius: 5px;
+    transition: .3s;
 }
 .gtn_cards:hover .gtn_btn {
     color: #ffffff;
+    border: 1px solid #ffffff;
 }
 /* section get_in_touch*/
 
@@ -518,7 +532,7 @@ a {
 .consult_btn:hover {
     background: #de8c1c;
 }
-    /*consult section*/
+/*consult section*/
 
 
 /*footer section*/
