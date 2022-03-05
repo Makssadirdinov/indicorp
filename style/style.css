@@ -37,7 +37,7 @@ a {
     margin: 0 auto;
 }
 
-@media (max-width:767px) {
+@media all and (max-width:767px) {
     .container {
         max-width: none;
     }
@@ -355,6 +355,9 @@ a {
     height: 259px;
     position: relative;
     padding: 70px 0 77px;
+}
+#clients_icons:hover {
+    fill: #00A0C1;
 }
 .clients_card {
     position: absolute;
